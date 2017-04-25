@@ -1,0 +1,141 @@
+* ,
+* :before,
+* :after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        -box-sizing: border-box;
+} 
+
+wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.starting-options {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+.starting-options li {
+  margin: 40px auto;
+  height: 40px;
+  line-height: 40px;
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color:  #0f3e0f;
+  color: white;
+}
+
+.sidebar-left {
+  width: 25%;
+  height: 100%;
+  float: left;
+  border-right: 1px solid black;
+  position: relative;
+}
+
+.sidebar-left div {
+  width: 100%;
+}
+
+#number-generator {
+  height: 47%;
+  background: white;
+  border-bottom: 1px solid black;
+}
+
+#next {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid black;
+    border-radius: 10px;
+}
+
+#output-in-words {
+  margin: 0 auto;
+  width: 85%;
+  height: 150px;
+  margin-top: 50px;
+  background: white;
+  line-height: 150px;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 40px;
+}
+
+#number {
+  position: relative;
+  margin: 0 auto;
+  height: 47%;
+  background: white;
+  line-height: 100%;
+  text-align: center;
+}
+
+#output-as-number {
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid black;
+  width: 85%;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  font-size: 100px;
+}
+
+#reset {
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  background-color:  #0f3e0f;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+
+#range {
+  margin: 0 auto;
+  width: 100px;
+  height: 40px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 40px;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+}
+
+.col-5-40 {
+  float: left;
+  width: 15%;
+  height: 100%;
+  text-align: center;
+}
+
+.bingo-40 li {
+  margin: 10px auto;
+  height: 70px;
+  width: 100px;
+  line-height: 70px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 40px;
+  color: black;
+  background: white;
+}
+
+.inPlay {
+  background: red !important;
+  color: white !important;
+}
